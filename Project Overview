@@ -1,0 +1,31 @@
+# HR Analytics Dashboard  
+
+## Overview  
+This project focuses on developing an **HR Analytics Dashboard** using real-world data to analyze employee attendance patterns over three months. The goal was to process raw attendance data, extract meaningful insights, and visualize key HR metrics using **Power BI**.  
+
+## Data Processing & Transformation  
+1. **Data Cleaning & Integration**:  
+   - The dataset was sourced from three separate Excel sheets, each containing attendance records for different months.  
+   - I cleaned and preprocessed the data to handle missing values, inconsistencies, and formatting issues.  
+   - The three datasets were merged into a continuous, structured format to facilitate seamless analysis.  
+
+2. **Feature Engineering & Metrics Calculation**:  
+   - Derived key performance indicators (KPIs) relevant to HR analytics, including:  
+     - **Presence Percentage (%)** – The proportion of days an employee was physically present.  
+     - **Work From Home Percentage (WFH%)** – The share of remote working days.  
+     - **Sick Leave Percentage (SL%)** – The percentage of sick leave taken.  
+   - Additional factors such as holidays, half-days, and partial work-from-home scenarios were also considered to ensure accurate calculations.  
+
+## Dashboard Development  
+- Developed an **interactive Power BI dashboard** to visualize and present insights effectively.  
+- The dashboard provides HR teams with a **comprehensive view** of workforce attendance trends, helping in decision-making and workforce management.  
+- Key features include:  
+  - **Trend Analysis** – Monthly variations in attendance patterns.  
+  - **Comparative Insights** – Employee-wise and department-wise breakdowns.  
+  - **Interactive Filters** – Enables users to analyze data dynamically based on selected time frames or employee categories.  
+
+### Technologies Used  
+- **Power BI** – Data visualization and dashboard creation  
+- **Python / Excel** – Data cleaning and preprocessing (if applicable)  
+- **SQL (if applicable)** – Data manipulation and querying  
+
